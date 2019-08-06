@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <title> home </title>
+
+    <link rel="stylesheet" href="bootstrapcss/bootstrap.min.css"> </head>
+    <body style="background-color:rgb(192, 57, 57);"> 
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand" href="project4.html">HOME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>              
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="project2.html"> About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project1.html">Categories</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="project5.html">Contact us</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="project4.html">log in</a>
+                      </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+              <div class="container">
+                 <div class="image">
+          <center> <img id="myimg",  src="images/shop4.JPG" width= "700px", height="500px"></center> <br>
+             </div>
+            </div>
+            
+              <div class="button">
+          <center><button style="background-color: rgb(36, 36, 44)" >
+            <a href="project5.html"> Rent a shop </a></button></center>
+             </div>
+             <script type=text/javascript>
+              var shops=[ "images/eid.jpg", "images/shop1.jpg", "images/yasmin.jpg", "images/shop11.jpg" ,"images/shop04.jpg",  "images/shop5.jpg", "images/shop4.JPG"];
+              var index = 0;
+              var handleTiming = setInterval( slider, 2000);
+              var def = document.getElementById("myimg");
+              function slider(){
+      def.setAttribute("src", shops[index]);
+      index++;
+      if (index > shops.length -1){
+      index=0;
+      }
+              }
+              
+              </script>
+              </body>
+              </html>
+              

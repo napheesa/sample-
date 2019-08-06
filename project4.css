@@ -1,0 +1,39 @@
+
+
+.footer{
+    background-color: rgb(95, 85, 240);
+    color: white;
+    clear: both;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 250px;
+    height: 50px;
+    }
+    .container{
+        height: 270px;
+        margin-top: 50px;
+        margin-bottom: 250px;
+    }
+    .container2{
+        width: 50%;
+        margin: auto;
+        box-sizing: border-box;
+
+    }
+    .pass{
+        float: left;
+        width: 50%;
+        border-right: 3px solid black;
+        box-sizing: border-box;
+        text-align: end;
+        margin-top: 85px;
+        margin-right: 0;
+        padding: 0;
+    }
+    .reg{
+        width: 50%;
+        float: left;
+        text-align: start;
+        margin-top: 85px;
+        margin-left: 0;
+    }
